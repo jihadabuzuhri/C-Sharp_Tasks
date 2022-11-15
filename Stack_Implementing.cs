@@ -45,10 +45,15 @@ class Stack<T>
 	public void Peak ()
 	{	
 		if (top < 0)
-		Console.WriteLine("stack in empty");
+		{
+			Console.WriteLine("stack in empty");
+		}
 		
-		T item =stack[top];  
-		Console.WriteLine(item);
+		else 
+		{
+			T item =stack[top];  
+			Console.WriteLine(item);
+		}
 		
 	}
 	
